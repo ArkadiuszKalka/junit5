@@ -12,7 +12,7 @@ class RangeTest {
     public void shouldReturnTrueIfNumberInRange() {
 
         Range range = new Range(10, 20);
-        boolean result = range.isInRange(15,;
+        boolean result = range.isInRange(15);
 
         assertTrue(result,"Number is outside range!");
 
