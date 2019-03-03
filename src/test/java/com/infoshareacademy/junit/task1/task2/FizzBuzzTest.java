@@ -1,10 +1,13 @@
 package com.infoshareacademy.junit.task1.task2;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
+
 
     @Test
     public void shouldReturnFizz(){
@@ -23,6 +26,7 @@ public class FizzBuzzTest {
     }
 
     @Test
+    @DisplayName("Should return FizzBazz")
     public void shouldReturnFizzBuzz(){
 
         FizzBuzz fizzBuzz= new FizzBuzz();
@@ -31,13 +35,21 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void shouldReturnInt(){
+    public void shouldReturnIntValue(){
 
         FizzBuzz fizzBuzz= new FizzBuzz();
         String test = fizzBuzz.play(1);
         assertEquals(test,"1");
     }
 
+    @Test
+    public void shouldThrowExceptionForNumberEqualsZero(){
+
+        FizzBuzz fizzBuzz= new FizzBuzz();
+        //String test = fizzBuzz.play(0);
+        Assertions.assertThrows(ArithmeticException.class, () ->fizzBuzz.play(0));
+
+    }
 
 }
 
