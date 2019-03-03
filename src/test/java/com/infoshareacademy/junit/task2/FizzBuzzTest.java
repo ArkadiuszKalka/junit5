@@ -4,7 +4,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
+
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -59,6 +62,7 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assertions.assertThrows(ArithmeticException.class, () -> fizzBuzz.play(-5));
     }
+
     @DisplayName("Should return Fizz if number is divisible by three")
     @ParameterizedTest(name="{index}  {0} should by divided by 3" )
     @ValueSource(ints = { 3, 6, 9, 99})
@@ -69,6 +73,24 @@ public class FizzBuzzTest {
         String actualResult = fizzBuzz.play(number);
 
         assertEquals(expectedResult,actualResult);
+    }
+
+
+    @DisplayName("Should return Buzz if number is divisible by five")
+    @ParameterizedTest(name="{index} - value {0}" )
+    @MethodSource("dataProvider")
+    public void shouldReturnBuzzWhenDivisableBy5(int number) {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String expectedResult="Buzz!";
+        String actualResult = fizzBuzz.play(number);
+
+        assertEquals(expectedResult,actualResult);
+    }
+    private static Stream<Integer> dataProvider(){
+        return Stream.of(5, 20, 110, 205, 10000);
+
+
     }
 
 
