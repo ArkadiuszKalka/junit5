@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80f1ae8e-c3a1-4bd6-9ec8-09a1d3be015c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/infoshareacademy/junit/AssertJFizzBuzzTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/infoshareacademy/junit/AssertJFizzBuzzTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,13 +23,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="74" />
-          <entry key="java" value="2417" />
+          <entry key="java" value="2431" />
           <entry key="xml" value="186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2417" />
+          <entry key="JAVA" value="2431" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="XML" value="186" />
         </counts>
@@ -66,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="353">
+              <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -295,7 +293,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551640899669" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551641130777" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -435,23 +433,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551623633087</updated>
-      <workItem from="1551623638501" duration="14968000" />
+      <workItem from="1551623638501" duration="15222000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen5 - 2019.03.03 at 20h 00m 24s.xml">
-      <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen3and5 - 2019.03.03 at 20h 00m 28s.xml">
-      <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen3and5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 00m 50s.xml">
-      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 01m 21s.xml">
-      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen1 - 2019.03.03 at 20h 03m 30s.xml">
       <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen1" configurationId="JUnit" />
     </history-entry>
@@ -470,9 +456,21 @@
     <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen5 - 2019.03.03 at 20h 14m 59s.xml">
       <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen5" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnCorrectValue - 2019.03.03 at 20h 21m 20s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnCorrectValue - 2019.03.03 at 20h 21m 42s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnCorrectValue - 2019.03.03 at 20h 22m 49s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnCorrectValue - 2019.03.03 at 20h 24m 43s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldReturnCorrectValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14968000" />
+    <option name="totallyTimeSpent" value="15222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
@@ -579,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="353">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

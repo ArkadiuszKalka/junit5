@@ -67,7 +67,7 @@ public class AssertJFizzBuzzTest {
         softly.assertThatThrownBy(()-> fizzBuzz.play(number1))
                 .isInstanceOf(ArithmeticException.class);
         softly.assertThatThrownBy(()->fizzBuzz.play(number2))
-                .isInstanceOf(IllegalArgumentException.class)
+                .isInstanceOf(ArithmeticException.class)
                 .hasMessage("Number cannot be equal 0 or negative!");
         softly.assertAll();
     }
