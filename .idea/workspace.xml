@@ -22,13 +22,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1615" />
+          <entry key="java" value="1809" />
           <entry key="xml" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1615" />
+          <entry key="JAVA" value="1809" />
           <entry key="XML" value="185" />
         </counts>
       </usages-collector>
@@ -88,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="89" column="50" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="89" selection-end-column="50" />
+              <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551636508571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551637057226" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -293,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest.shouldReturnBuzzWhenDivisableBy5">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.shouldReturnExpectedValue">
     <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
@@ -324,17 +324,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.shouldThrowExceptionForNumberEqualsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.shouldReturnExpectedValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.infoshareacademy.junit.task1.task2.*" />
+          <option name="PATTERN" value="com.infoshareacademy.junit.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit.task1.task2" />
-      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.task1.task2.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionForNumberEqualsZero" />
+      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit.task2" />
+      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.task2.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnExpectedValue(int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -374,18 +374,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.FizzBuzzTest" />
-      <item itemvalue="JUnit.FizzBuzzTest.shouldThrowExceptionForNumberEqualsZero" />
       <item itemvalue="JUnit.FizzBuzzTest.shouldThrowExceptionForNumberLessZero" />
       <item itemvalue="JUnit.FizzBuzzTest.verifyIfReturnBuzzWhenDdivisableByThree" />
       <item itemvalue="JUnit.FizzBuzzTest.shouldReturnBuzzWhenDivisableBy5" />
+      <item itemvalue="JUnit.FizzBuzzTest.shouldReturnExpectedValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest.shouldReturnExpectedValue" />
         <item itemvalue="JUnit.FizzBuzzTest.shouldReturnBuzzWhenDivisableBy5" />
         <item itemvalue="JUnit.FizzBuzzTest.verifyIfReturnBuzzWhenDdivisableByThree" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBuzzTest.shouldThrowExceptionForNumberLessZero" />
-        <item itemvalue="JUnit.FizzBuzzTest.shouldThrowExceptionForNumberEqualsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -399,14 +399,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551623633087</updated>
-      <workItem from="1551623638501" duration="11150000" />
+      <workItem from="1551623638501" duration="11599000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_shouldReturnFizzBuzz - 2019.03.03 at 18h 10m 08s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnFizzBuzz" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTest_shouldThrowExceptionForNumberEqualsZero - 2019.03.03 at 18h 17m 54s.xml">
       <configuration name="FizzBuzzTest.shouldThrowExceptionForNumberEqualsZero" configurationId="JUnit" />
     </history-entry>
@@ -434,9 +431,12 @@
     <history-entry file="FizzBuzzTest_verifyIfReturnBuzzWhenDdivisableByThree - 2019.03.03 at 18h 52m 07s.xml">
       <configuration name="FizzBuzzTest.verifyIfReturnBuzzWhenDdivisableByThree" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_shouldReturnBuzzWhenDivisableBy5 - 2019.03.03 at 19h 17m 39s.xml">
+      <configuration name="FizzBuzzTest.shouldReturnBuzzWhenDivisableBy5" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11150000" />
+    <option name="totallyTimeSpent" value="11599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
@@ -527,7 +527,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="89" column="50" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="89" selection-end-column="50" />
+          <caret line="101" column="7" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
