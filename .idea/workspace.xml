@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="80f1ae8e-c3a1-4bd6-9ec8-09a1d3be015c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.infoshareacademy.junit.task1.RangeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.infoshareacademy.junit.task1.RangeTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.infoshareacademy.junit.task1.RangeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.infoshareacademy.junit.task1.RangeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/infoshareacademy/junit/AssertJFizzBuzzTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/infoshareacademy/junit/AssertJFizzBuzzTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,13 +25,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="74" />
-          <entry key="java" value="2133" />
+          <entry key="java" value="2417" />
           <entry key="xml" value="186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2133" />
+          <entry key="JAVA" value="2417" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="XML" value="186" />
         </counts>
@@ -69,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="428">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+              <caret line="8" column="80" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -298,7 +295,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551639648459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551640899669" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -332,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AssertJFizzBuzzTest">
+  <component name="RunManager" selected="JUnit.AssertJFizzBuzzTest.shouldReturnCorrectValue">
     <configuration name="AssertJFizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
@@ -343,6 +340,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.infoshareacademy.junit" />
       <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.AssertJFizzBuzzTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertJFizzBuzzTest.shouldReturnCorrectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.infoshareacademy.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.AssertJFizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectValue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,38 +371,6 @@
       <option name="PACKAGE_NAME" value="com.infoshareacademy.junit" />
       <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.AssertJFizzBuzzTest" />
       <option name="METHOD_NAME" value="shouldReturnFizzWhen1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.infoshareacademy.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.AssertJFizzBuzzTest" />
-      <option name="METHOD_NAME" value="shouldReturnFizzWhen3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen3and5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.infoshareacademy.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit" />
-      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.AssertJFizzBuzzTest" />
-      <option name="METHOD_NAME" value="shouldReturnFizzWhen3and5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -411,20 +392,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AssertJFizzBuzzTest.shouldThrowExceptionForNegativeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.infoshareacademy.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.AssertJFizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionForNegativeNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnFizzWhen3" />
-      <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnFizzWhen3and5" />
       <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnFizzWhen1" />
       <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnFizzWhen5" />
       <item itemvalue="JUnit.AssertJFizzBuzzTest" />
+      <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldThrowExceptionForNegativeNumber" />
+      <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnCorrectValue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AssertJFizzBuzzTest" />
-        <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnFizzWhen3and5" />
+        <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnCorrectValue" />
         <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnFizzWhen5" />
-        <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnFizzWhen3" />
+        <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldThrowExceptionForNegativeNumber" />
         <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnFizzWhen1" />
+        <item itemvalue="JUnit.AssertJFizzBuzzTest" />
       </list>
     </recent_temporary>
   </component>
@@ -438,44 +435,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551623633087</updated>
-      <workItem from="1551623638501" duration="13601000" />
+      <workItem from="1551623638501" duration="14968000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzTest_shouldReturnBuzzWhenDivisableBy5 - 2019.03.03 at 19h 17m 39s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnBuzzWhenDivisableBy5" configurationId="JUnit" />
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen5 - 2019.03.03 at 20h 00m 24s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnExpectedValue - 2019.03.03 at 19h 25m 09s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnExpectedValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnExpectedValueFromCSV - 2019.03.03 at 19h 34m 28s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnExpectedValueFromCSV" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnExpectedValueFromCSV - 2019.03.03 at 19h 34m 46s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnExpectedValueFromCSV" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnExpectedValueFromCSV - 2019.03.03 at 19h 36m 19s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnExpectedValueFromCSV" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest_shouldReturnExpectedValueFromCSV - 2019.03.03 at 19h 36m 52s.xml">
-      <configuration name="FizzBuzzTest.shouldReturnExpectedValueFromCSV" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen3 - 2019.03.03 at 19h 50m 34s.xml">
-      <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen3and5 - 2019.03.03 at 19h 52m 53s.xml">
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen3and5 - 2019.03.03 at 20h 00m 28s.xml">
       <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen3and5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen1 - 2019.03.03 at 19h 53m 14s.xml">
+    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 00m 50s.xml">
+      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 01m 21s.xml">
+      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen1 - 2019.03.03 at 20h 03m 30s.xml">
       <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen1 - 2019.03.03 at 19h 53m 28s.xml">
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen1 - 2019.03.03 at 20h 03m 55s.xml">
       <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldThrowExceptionForNegativeNumber - 2019.03.03 at 20h 09m 04s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldThrowExceptionForNegativeNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldThrowExceptionForNegativeNumber - 2019.03.03 at 20h 09m 36s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldThrowExceptionForNegativeNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldThrowExceptionForNegativeNumber - 2019.03.03 at 20h 11m 55s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldThrowExceptionForNegativeNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest_shouldReturnFizzWhen5 - 2019.03.03 at 20h 14m 59s.xml">
+      <configuration name="AssertJFizzBuzzTest.shouldReturnFizzWhen5" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13601000" />
+    <option name="totallyTimeSpent" value="14968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
@@ -549,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/test_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -580,10 +570,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="80" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="428">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

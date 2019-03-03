@@ -1,9 +1,11 @@
 package com.infoshareacademy.junit;
 
 import com.infoshareacademy.junit.task2.FizzBuzz;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
+import static org.assertj.core.api.Java6Assertions.assertThatThrownBy;
 
 public class AssertJFizzBuzzTest {
 
@@ -14,7 +16,9 @@ public class AssertJFizzBuzzTest {
         int number = 1;
         assertThat(fizzBuzz.play(number))
                 .isNotNull()
-                .isEqualTo("1");
+                .isEqualTo("1")
+                .isNotBlank()
+                .isNotEmpty();
 
     }
 
@@ -30,6 +34,7 @@ public class AssertJFizzBuzzTest {
     public void shouldReturnFizzWhen5() {
         int number = 5;
         assertThat(fizzBuzz.play(number))
+                .overridingErrorMessage("Moja wiadomość")
                 .isNotNull()
                 .isEqualTo("Buzz!");
     }
@@ -41,6 +46,30 @@ public class AssertJFizzBuzzTest {
                 .isNotNull()
                 .isEqualTo("FizzBuzz!");
 
+    }
+
+    @Test
+    public void shouldThrowExceptionForNegativeNumber() {
+        int number = -1;
+        assertThatThrownBy(() -> fizzBuzz.play(number))
+                .isInstanceOf(ArithmeticException.class)
+                .hasMessage("Number cannot be equal 0 or negative!");
+    }
+
+    @Test
+    public void shouldReturnCorrectValue() {
+
+        int number1 = -1;
+        int number2 = 0;
+
+        SoftAssertions softly = new SoftAssertions();
+
+        softly.assertThatThrownBy(()-> fizzBuzz.play(number1))
+                .isInstanceOf(ArithmeticException.class);
+        softly.assertThatThrownBy(()->fizzBuzz.play(number2))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("Number cannot be equal 0 or negative!");
+        softly.assertAll();
     }
 
 
