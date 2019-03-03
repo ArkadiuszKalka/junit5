@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.infoshareacademy.junit.task1.RangeTest" time="0.016" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.116" tests="25" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,6 +59,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldReturnTrueIfNumberInRange" classname="com.infoshareacademy.junit.task1.RangeTest" time="0.008"/>
-  <testcase name="shouldReturnFalseIfNumberIsOutOfRange" classname="com.infoshareacademy.junit.task1.RangeTest" time="0.001"/>
+  <testcase name="shouldReturnIntValue" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="shouldReturnExpectedValue{int, String}[1]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.021"/>
+  <testcase name="shouldReturnExpectedValue{int, String}[2]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnExpectedValue{int, String}[3]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="shouldReturnExpectedValue{int, String}[4]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="shouldReturnExpectedValueFromCSV{int, String}[1]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnExpectedValueFromCSV{int, String}[2]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnExpectedValueFromCSV{int, String}[3]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnExpectedValueFromCSV{int, String}[4]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="shouldReturnExpectedValueFromCSV{int, String}[5]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnExpectedValueFromCSV{int, String}[6]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnBuzz" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="shouldReturnFizz" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="verifyIfReturnBuzzWhenDdivisableByThree{int}[1]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="verifyIfReturnBuzzWhenDdivisableByThree{int}[2]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="verifyIfReturnBuzzWhenDdivisableByThree{int}[3]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="verifyIfReturnBuzzWhenDdivisableByThree{int}[4]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="shouldThrowExceptionForNumberBellowZero" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.002"/>
+  <testcase name="shouldReturnFizzBuzz" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="shouldThrowExceptionForNumberEqualsZero" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnBuzzWhenDivisableBy5{int}[1]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnBuzzWhenDivisableBy5{int}[2]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0"/>
+  <testcase name="shouldReturnBuzzWhenDivisableBy5{int}[3]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.002"/>
+  <testcase name="shouldReturnBuzzWhenDivisableBy5{int}[4]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
+  <testcase name="shouldReturnBuzzWhenDivisableBy5{int}[5]" classname="com.infoshareacademy.junit.task2.FizzBuzzTest" time="0.001"/>
 </testsuite>
