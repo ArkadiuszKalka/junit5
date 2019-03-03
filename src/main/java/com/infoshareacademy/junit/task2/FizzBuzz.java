@@ -1,4 +1,4 @@
-package com.infoshareacademy.junit.task1.task2;
+package com.infoshareacademy.junit.task2;
 
 public class FizzBuzz {
     public String play(int value) {
